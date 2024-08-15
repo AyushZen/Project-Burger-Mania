@@ -1,0 +1,79 @@
+
+/* Navbar */
+.logoImage{
+    margin: 10px;
+}
+
+.navigationBar-brand{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.navigationBar-list li{
+    padding: 0px 10px;
+
+}
+
+/* Login Page Content */
+
+.homeContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.homeContent h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+/* Menu Section - Home Page  */
+
+#menuSection, #finalOrderSection, #OrdersSection{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.menuCard{
+    width: 15rem;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#orderButton{
+    margin: 30px 50px;
+    width: 100%;
+}
+
+/* Order Section */
+.orderItem {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 1px 3px;
+  }
+  
+  .orderItem:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .card-text {
+    color: #666;
+    font-size: 16px;
+  }
